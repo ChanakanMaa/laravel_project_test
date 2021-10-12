@@ -1,0 +1,89 @@
+.image-upload>input {
+    display: none;
+}
+
+input[type=text]{
+    width: 95%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+label{
+    text-align: left;
+}
+
+input{
+    text-align: left;
+}
+
+.regis-text{
+    color: red;
+    font-size: -webkit-xxx-large;
+    font-weight: lighter;
+    line-height: 100px;
+}
+
+.dropArea {
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+
+.dropArea img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.dropArea #refreshBtn {
+    display: none;
+    position: absolute;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    top: 0;
+    right: 0;
+    z-index: 300;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dropArea .innerHtml {
+    display: grid;
+    margin-top: 20px;
+}
+
+.dropArea .innerHtml h4 {
+    font-family: sans-serif;
+    color: blue;
+    text-align: center!important;
+    font-size: 22px;
+}
+
+.dropArea .innerHtml .fa-image {
+    font-size: 9em;
+    margin: auto;
+}
+.dropArea .btnDiv {
+    display: flex;
+    justify-content: center;
+}
+.dropArea .addImgbtn {
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 12px 37px;
+    cursor: pointer!important;
+}
